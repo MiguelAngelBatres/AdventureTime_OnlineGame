@@ -1,11 +1,15 @@
 {
-  "name": "miniproyecto-gina",
+  "name": "hora-de-aventura-game-online",
   "version": "1.0.0",
-  "description": "",
+  "description": "Arcade-style browser game built with HTML5/CSS/JS (Phaser).",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "deploy": "npm run build:clean && npm run build:docs",
+    "start": "lite-server",
+    "build:clean": "rm -rf docs",
+    "build:docs": "mkdir -p docs && cp -r index.html css assets sounds config.js docs/",
+    "test": "echo \"No tests configured\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -14,11 +18,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Miguel-Angel-Batres/MiniProyecto-Gina/issues"
   },
-  "homepage": "https://github.com/Miguel-Angel-Batres/MiniProyecto-Gina#readme",
+  "homepage": "https://miguel-angel-batres.github.io/MiniProyecto-Gina/",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
