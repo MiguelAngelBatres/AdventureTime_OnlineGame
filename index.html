@@ -262,6 +262,7 @@
 
       // Esperamos que el DOM esté completamente cargado antes de manipular elementos
       document.addEventListener("DOMContentLoaded", () => {
+
         document.getElementById("startGame").addEventListener("click", () => {
           const nicknameInput = document.getElementById("nickname").value;
 
@@ -357,7 +358,7 @@
           document.querySelector(".menu").style.display = "none";
           // Mostrar los creditos
           document.querySelector(".creditos").style.display = "flex";
-        });
+        });  startGame("finn");
         document.getElementById("finn").addEventListener("click", () => {
           // Sonido del boton
           document.getElementById("buttonsound").play();
@@ -375,6 +376,7 @@
           document.querySelector(".selectPJ").style.display = "none";
           document.body.classList.add("inactive");
           startGame("jake");
+
         });
 
         document.getElementById("exit").addEventListener("click", () => {

@@ -1,0 +1,5 @@
+{
+  "server": { "baseDir": "./" },
+  "files": ["index.html", "css/*.css", "*.js"],
+  "ghostMode": { "clicks": false, "scroll": false, "forms": false }
+}

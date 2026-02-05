@@ -4,9 +4,9 @@
   "description": "Arcade-style browser game built with HTML5/CSS/JS (Phaser).",
   "main": "index.js",
   "type": "commonjs",
-  "scripts": {
+ "scripts": {
     "deploy": "npm run build:clean && npm run build:docs",
-    "start": "lite-server",
+    "start": "lite-server -c bs-config.json",
     "build:clean": "rm -rf docs",
     "build:docs": "mkdir -p docs && cp -r index.html css assets sounds config.js docs/",
     "test": "echo \"No tests configured\" && exit 0"

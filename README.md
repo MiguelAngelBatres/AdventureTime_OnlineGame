@@ -1,101 +1,53 @@
 # Mini Proyecto Gina
 
-## Integrantes del Equipo
-- Miguel Angel Batres Luna
-- Ariel Emilio Parra Martinez
-- Martin Alfonso Romo Martinez
+## Descripción del Proyecto
 
-## Información General
+Mini Proyecto Gina es un juego interactivo desarrollado como parte de un proyecto académico. El objetivo es proporcionar una experiencia divertida y educativa, implementando diversas mecánicas de juego y características técnicas.
 
-Este documento detalla los requisitos y criterios de evaluación para el desarrollo del juego.
+## Probar el Proyecto
 
-## Redacción y Rúbrica
+Puedes probar el proyecto directamente desde el siguiente enlace:  
+[Enlace para probar el juego](#)
 
-- [x] **Portada** con los integrantes del equipo (0.2 pts)
-- [x] **Link de GitHub** donde se puede descargar el proyecto (0.2 pts)
-- [x] **Link del video grabado**, además de los links de respaldo
-- [x] **Link a la nube** con el video explicando la rúbrica, sistema y código (0.2 pts)
-- [x] **Link de respaldo** en la nube del video explicando la rúbrica, sistema y código (0.2 pts)
-- [x] **Segundo link de respaldo** en la nube del video explicando la rúbrica, sistema y código (0.2 pts)
-- [x] **Explicación de la operación del primer nivel** y del segundo nivel (diferencias con el primero) (0.5 pts)
-- [x] **Imágenes de todas las pantallas** del sistema (sin omitir ninguna) (1 pts)
-- [x] **Instrucciones detalladas** para ejecutar el código (0.5 pts)
-- [x] **Reporte de actividades y conclusiones por integrante** (2 pts)
+## Instalación Local
 
-## Foro en Aula Virtual
+Si prefieres probar el proyecto localmente, sigue estos pasos:
 
-- [x] **Video corto** mostrando y narrando el juego, pantallas y niveles (1 pts)
-- [x] **Publicación en el foro** con el link al video corto, nombres de los integrantes y nombre del juego (1 pts)
+1. Clona el repositorio:
+  ```bash
+  git clone <URL_DEL_REPOSITORIO>
+  ```
+2. Navega al directorio del proyecto:
+  ```bash
+  cd MiniProyecto-Gina
+  ```
+3. Instala las dependencias:
+  ```bash
+  npm install
+  ```
+4. Inicia el proyecto:
+  ```bash
+  npm start
+  ```
 
-## Características a Evaluar
+El juego estará disponible en tu navegador en `http://localhost:3000`.
 
-- [x] **Consistencia en el diseño** del juego (2 pts)
-- [x] **Pantalla de presentación del juego** con nombre y logotipo (1.5 pts)
-- [x] **Menú del juego** con opciones: Jugar, Records, Instrucciones y Créditos (1 pts)
+## Características Principales
 
-## Jugar
+- **Diseño Consistente**: Pantallas atractivas y bien organizadas.
+- **Menú Interactivo**: Opciones para jugar, ver records, instrucciones y créditos.
+- **Persistencia de Datos**: Guardado de alias y puntuaciones en `localStorage`.
+- **Sonido y Música**: Música de fondo y efectos de sonido para una experiencia inmersiva.
+- **Interfaz Informativa**: Alias, puntuación, vidas, nivel y fecha visibles durante el juego.
+- **Nivel 2**: Cambios en diseño y mecánicas adicionales.
 
-- [x] **Captura de alias del jugador** con validaciones (6 pts)
-- [x] **Elección de personaje** con mínimo dos opciones (4 pts)
-- [x] **Posibilidad de iniciar el juego** (0.5 pts)
+## Recursos y Créditos
 
-## Records
+- **Equipo de Desarrollo**:
+  - Miguel Angel Batres Luna
+  - Ariel Emilio Parra Martinez
+  - Martin Alfonso Romo Martinez
+- **Tecnologías Utilizadas**: Phaser, JavaScript, HTML, CSS.
+- **Fecha de Desarrollo**: [Fecha del proyecto].
 
-- [x] **Mostrar registros de jugadores** con nombre, puntuación y fecha (6 pts)
-
-## Instrucciones
-
-- [x] **Explicar la dinámica del juego** en cada nivel (3 pts)
-
-## Créditos
-
-- [x] **Pantalla con nombres de los integrantes**, materia y fecha (4 pts)
-
-## Reglas del Juego
-
-- [x] **Definir reglas del Nivel 1**
-- [x] **Cambios en imágenes, escenario y contexto** respecto al juego de ejemplo en Phaser
-- [x] **Pantalla de Game Over** con opción de regresar al menú (3 pts)
-- [x] **Pantalla de felicitación** al completar los niveles con alias del jugador (3 pts)
-- [x] **Manejo y control de 3 vidas** (3 pts)
-
-## Recursos Especiales
-
-- [x] **Recursos que cambian de color/características aleatoriamente** (6 pts)
-
-## Persistencia de Datos
-
-- [x] **Guardado y actualización de alias y puntuaciones en localStorage** (5 pts)
-
-## Sonido y Música
-
-- [x] **Música de fondo con opción de prender/pausar** (3 pts)
-- [x] **Efectos de sonido para acciones importantes** (3 pts)
-
-## Interfaz de Juego
-
-- [x] **Mostrar alias, puntuación, vidas, nivel y fecha** (3 pts)
-- [x] **Pausar y reanudar el juego** (3 pts)
-
-## Nivel 2
-
-- [x] **Cambio de diseño de fondo**
-- [x] **Definir nuevas reglas y mecánica adicional** (8 pts)
-
-## Aspectos Técnicos
-
-- [x] **Centrar pantallas del juego en el navegador** (1 pts)
-- [x] **Mostrar y explicar en consola:**
-  - [x] Guardado de alias en localStorage
-  - [x] Verificación de alias existente
-  - [x] Orden de records en tabla
-  - [x] Actualización de tabla al jugar con otro alias
-- [x] **Mostrar en código:**
-  - [x] Control de vidas (0.5 pts)
-  - [x] Mecánica del recurso especial (1 pts)
-  - [x] Uso de Flexbox en la vista (1 pts)
-  - [x] Uso de CSS Grid en la vista (1 pts)
-  - [x] Uso de variables en estilos (1 pts)
-  - [x] Uso de Canvas en una pantalla personalizada (4 pts)
-  - [x] Implementación de Drag and Drop con una función útil (5 pts)
-
+¡Esperamos que disfrutes el juego!
