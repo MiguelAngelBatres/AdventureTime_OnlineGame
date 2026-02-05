@@ -1,5 +1,8 @@
 {
-  "server": { "baseDir": "./" },
-  "files": ["index.html", "css/*.css", "*.js"],
-  "ghostMode": { "clicks": false, "scroll": false, "forms": false }
+ "open": false,
+  "notify": false,
+  "ui": false,
+  "ghostMode": false,
+  "codeSync": false,
+  "files": []
 }
