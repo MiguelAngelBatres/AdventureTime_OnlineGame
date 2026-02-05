@@ -1,53 +1,149 @@
-# Mini Proyecto Gina
+# Adventure Time – Online Game 🎮
 
-## Descripción del Proyecto
+Un juego web interactivo inspirado en el universo de *Adventure Time*, desarrollado con **Node.js, Express y Phaser**.
+Proyecto académico enfocado en la creación de un videojuego 2d funcional en navegador con múltiples pantallas, niveles y sistema de puntuaciones.
 
-Mini Proyecto Gina es un juego interactivo desarrollado como parte de un proyecto académico. El objetivo es proporcionar una experiencia divertida y educativa, implementando diversas mecánicas de juego y características técnicas.
+<p align="center">
+  <img src="atdemo1.gif" alt="AdventureTime-Demo1" />
+</p>
+<p align="center">
+  <img src="atdemo2.gif" alt="AdventureTime-Demo2" />
+</p>
 
-## Probar el Proyecto
 
-Puedes probar el proyecto directamente desde el siguiente enlace:  
-[Enlace para probar el juego](#)
+> [!NOTE]
+> Este juego solo se puede jugar en PC.
 
-## Instalación Local
+> [!IMPORTANT]
+> Requiere Node.js versión 16 o superior para ejecutarse correctamente.
 
-Si prefieres probar el proyecto localmente, sigue estos pasos:
+---
+
+## ✨ Características
+
+* Juego desarrollado con el framework **Phaser 3**.
+* Servidor web implementado en **Node.js con Express**.
+* Sistema de menús interactivos.
+* Persistencia de datos mediante **localStorage**.
+* Música de fondo y efectos de sonido.
+* Interfaz de juego con información en tiempo real:
+
+  * Alias del jugador
+  * Puntuación
+  * Vidas
+  * Nivel actual
+  * Fecha y tiempo de juego
+* Múltiples niveles con mecánicas progresivas.
+* Pantallas de:
+
+  * Instrucciones
+  * Récords
+  * Créditos
+
+---
+
+## 🚀 Cómo Ejecutarlo
+
+### Requisitos Previos
+
+* Node.js 16+ instalado
+  Verifica tu versión con:
+
+  ```bash
+  node -v
+  ```
+
+---
+
+### Instalación Local
 
 1. Clona el repositorio:
-  ```bash
-  git clone <URL_DEL_REPOSITORIO>
-  ```
-2. Navega al directorio del proyecto:
-  ```bash
-  cd MiniProyecto-Gina
-  ```
+
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   ```
+
+2. Entra al directorio del proyecto:
+
+   ```bash
+   cd AdventureTime-OnlineGame
+   ```
+
 3. Instala las dependencias:
-  ```bash
-  npm install
-  ```
-4. Inicia el proyecto:
-  ```bash
-  npm start
-  ```
 
-El juego estará disponible en tu navegador en `http://localhost:3000`.
+   ```bash
+   npm install
+   ```
 
-## Características Principales
+4. Inicia el servidor:
 
-- **Diseño Consistente**: Pantallas atractivas y bien organizadas.
-- **Menú Interactivo**: Opciones para jugar, ver records, instrucciones y créditos.
-- **Persistencia de Datos**: Guardado de alias y puntuaciones en `localStorage`.
-- **Sonido y Música**: Música de fondo y efectos de sonido para una experiencia inmersiva.
-- **Interfaz Informativa**: Alias, puntuación, vidas, nivel y fecha visibles durante el juego.
-- **Nivel 2**: Cambios en diseño y mecánicas adicionales.
+   ```bash
+   npm start
+   ```
 
-## Recursos y Créditos
+5. Abre tu navegador y entra a:
 
-- **Equipo de Desarrollo**:
-  - Miguel Angel Batres Luna
-  - Ariel Emilio Parra Martinez
-  - Martin Alfonso Romo Martinez
-- **Tecnologías Utilizadas**: Phaser, JavaScript, HTML, CSS.
-- **Fecha de Desarrollo**: [Fecha del proyecto].
+   ```
+   http://localhost:3000
+   ```
 
-¡Esperamos que disfrutes el juego!
+---
+
+## 🕹️ Cómo Jugar
+
+* Ingresa un alias para comenzar.
+* Utiliza el teclado para controlar a tu personaje.
+* Evita obstáculos y enemigos.
+* Acumula la mayor cantidad de puntos posible.
+* Supera los distintos niveles del juego.
+
+---
+
+## 🛠 Tecnologías Utilizadas
+
+* **Node.js** – Backend del proyecto
+* **Express.js** – Servidor web
+* **Phaser 3** – Motor de videojuegos
+* **JavaScript / HTML / CSS** – Frontend
+* **localStorage** – Guardado de datos del jugador
+
+---
+
+## 🗂️ Estructura del Proyecto
+
+```
+AdventureTime-OnlineGame/
+├── public/
+│   ├── assets/
+│   ├── js/
+│   ├── css/
+│   └── index.html
+├── routes/
+├── views/
+├── app.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 🌐 Probar en Línea
+
+Puedes probar el juego directamente desde aquí:
+
+👉 **[Jugar Adventure Time Online Game](https://adventuretime-onlinegame.onrender.com)**
+
+---
+
+## 📎 Notas
+
+* Proyecto desarrollado con fines académicos.
+* Compatible con cualquier navegador moderno.
+* No requiere instalaciones adicionales aparte de Node.js.
+
+---
+
+¡Gracias por jugar y explorar este proyecto! 🎉
+
+---
+
