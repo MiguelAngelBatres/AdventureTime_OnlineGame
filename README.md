@@ -1,13 +1,14 @@
 
----
-
 # Adventure Time – Online Game 🎮
 
 A web-based interactive game inspired by the *Adventure Time* universe, developed using **Node.js, Express, and Phaser**.
 This project was created as part of an academic assignment focused on building a functional browser game with multiple screens, levels, and a scoring system.
 
 <p align="center">
-  <img src="gameplay_demo.gif" alt="AdventureTime-Demo" />
+  <img src="atdemo1.gif" alt="AdventureTime-Demo" />
+</p>
+<p align="center">
+  <img src="atdemo2.gif" alt="AdventureTime-Demo" />
 </p>
 
 > [!IMPORTANT]
