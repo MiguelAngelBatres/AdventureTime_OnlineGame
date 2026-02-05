@@ -1,53 +1,54 @@
+Aquí tienes el **README de Adventure Time Online Game completamente en inglés**, listo para usar:
+
+---
+
 # Adventure Time – Online Game 🎮
 
-Un juego web interactivo inspirado en el universo de *Adventure Time*, desarrollado con **Node.js, Express y Phaser**.
-Proyecto académico enfocado en la creación de un videojuego 2d funcional en navegador con múltiples pantallas, niveles y sistema de puntuaciones.
+A web-based interactive game inspired by the *Adventure Time* universe, developed using **Node.js, Express, and Phaser**.
+This project was created as part of an academic assignment focused on building a functional browser game with multiple screens, levels, and a scoring system.
 
 <p align="center">
-  <img src="atdemo1.gif" alt="AdventureTime-Demo1" />
+  <img src="gameplay_demo.gif" alt="AdventureTime-Demo" />
 </p>
-<p align="center">
-  <img src="atdemo2.gif" alt="AdventureTime-Demo2" />
-</p>
+
+> [!IMPORTANT]
+> The user interface and in-game text are entirely in Spanish.
 
 
 > [!NOTE]
-> Este juego solo se puede jugar en PC.
-
-> [!IMPORTANT]
-> Requiere Node.js versión 16 o superior para ejecutarse correctamente.
+> Requires Node.js version 16 or higher to run properly.
 
 ---
 
-## ✨ Características
+## ✨ Features
 
-* Juego desarrollado con el framework **Phaser 3**.
-* Servidor web implementado en **Node.js con Express**.
-* Sistema de menús interactivos.
-* Persistencia de datos mediante **localStorage**.
-* Música de fondo y efectos de sonido.
-* Interfaz de juego con información en tiempo real:
+* Game developed with **Phaser 3** framework.
+* Web server powered by **Node.js and Express**.
+* Fully interactive menu system.
+* Data persistence using **localStorage**.
+* Background music and sound effects.
+* In-game interface displaying real-time information:
 
-  * Alias del jugador
-  * Puntuación
-  * Vidas
-  * Nivel actual
-  * Fecha y tiempo de juego
-* Múltiples niveles con mecánicas progresivas.
-* Pantallas de:
+  * Player alias
+  * Score
+  * Lives
+  * Current level
+  * Date and gameplay time
+* Multiple levels with progressive mechanics.
+* Additional screens for:
 
-  * Instrucciones
-  * Récords
-  * Créditos
+  * Instructions
+  * High scores
+  * Credits
 
 ---
 
-## 🚀 Cómo Ejecutarlo
+## 🚀 How to Run
 
-### Requisitos Previos
+### Prerequisites
 
-* Node.js 16+ instalado
-  Verifica tu versión con:
+* Node.js 16+ installed
+  Check your version with:
 
   ```bash
   node -v
@@ -55,33 +56,33 @@ Proyecto académico enfocado en la creación de un videojuego 2d funcional en na
 
 ---
 
-### Instalación Local
+### Local Installation
 
-1. Clona el repositorio:
+1. Clone the repository:
 
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone <REPOSITORY_URL>
    ```
 
-2. Entra al directorio del proyecto:
+2. Navigate to the project folder:
 
    ```bash
    cd AdventureTime-OnlineGame
    ```
 
-3. Instala las dependencias:
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. Inicia el servidor:
+4. Start the server:
 
    ```bash
    npm start
    ```
 
-5. Abre tu navegador y entra a:
+5. Open your browser and go to:
 
    ```
    http://localhost:3000
@@ -89,27 +90,27 @@ Proyecto académico enfocado en la creación de un videojuego 2d funcional en na
 
 ---
 
-## 🕹️ Cómo Jugar
+## 🕹️ How to Play
 
-* Ingresa un alias para comenzar.
-* Utiliza el teclado para controlar a tu personaje.
-* Evita obstáculos y enemigos.
-* Acumula la mayor cantidad de puntos posible.
-* Supera los distintos niveles del juego.
+* Enter an alias to start the game.
+* Use the keyboard to control your character.
+* Avoid obstacles and enemies.
+* Collect as many points as possible.
+* Progress through the different game levels.
 
 ---
 
-## 🛠 Tecnologías Utilizadas
+## 🛠 Technologies Used
 
-* **Node.js** – Backend del proyecto
-* **Express.js** – Servidor web
-* **Phaser 3** – Motor de videojuegos
+* **Node.js** – Backend environment
+* **Express.js** – Web server framework
+* **Phaser 3** – Game engine
 * **JavaScript / HTML / CSS** – Frontend
-* **localStorage** – Guardado de datos del jugador
+* **localStorage** – Player data storage
 
 ---
 
-## 🗂️ Estructura del Proyecto
+## 🗂 Project Structure
 
 ```
 AdventureTime-OnlineGame/
@@ -127,23 +128,30 @@ AdventureTime-OnlineGame/
 
 ---
 
-## 🌐 Probar en Línea
+## 🌐 Play Online
 
-Puedes probar el juego directamente desde aquí:
+You can try the game online here:
 
-👉 **[Jugar Adventure Time Online Game](https://adventuretime-onlinegame.onrender.com)**
-
----
-
-## 📎 Notas
-
-* Proyecto desarrollado con fines académicos.
-* Compatible con cualquier navegador moderno.
-* No requiere instalaciones adicionales aparte de Node.js.
+👉 **[Play Adventure Time Online Game](#)**
 
 ---
 
-¡Gracias por jugar y explorar este proyecto! 🎉
+## 👨‍💻 Development Team
+
+* **Miguel Angel Batres Luna**
+* **Ariel Emilio Parra Martinez**
+* **Martin Alfonso Romo Martinez**
 
 ---
 
+## 📎 Notes
+
+* Project developed for academic purposes.
+* Compatible with any modern web browser.
+* No additional software required besides Node.js.
+
+---
+
+Enjoy the adventure and have fun playing! 🎉
+
+---
