@@ -1,4 +1,3 @@
-Aquí tienes el **README de Adventure Time Online Game completamente en inglés**, listo para usar:
 
 ---
 
